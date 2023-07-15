@@ -11,3 +11,9 @@ gcloud builds submit --region=us-west2 --tag us-west2-docker.pkg.dev/fallbekken/
 ```
 
 Then set up a Cloud Run service manually in GCP Console. Take care to expose port 3000.
+
+Result:
+
+https://uvicorn-image-n6n7ol2ntq-uc.a.run.app/
+
+(Works whenever we allow it to work in the security settings.)
